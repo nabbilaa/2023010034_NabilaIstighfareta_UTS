@@ -129,16 +129,18 @@ body {
 }
 
 .footer-content {
-    display: inline-flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; 
 }
 
 .footer-logo {
     width: 50px;
     height: auto;
+    order: -1; 
 }
+
 
 .product-grid {
     display: grid;
